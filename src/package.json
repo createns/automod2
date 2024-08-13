@@ -1,0 +1,21 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvacord": "^6.0.2",
+    "commandkit": "^0.1.10",
+    "discord.js": "^14.15.3",
+    "djs-commander": "^0.0.50",
+    "fs": "^0.0.1-security",
+    "mongoose": "^8.5.1",
+    "path": "^0.12.7"
+  }
+}
