@@ -53,8 +53,8 @@ client.on('ready', (c) => {
    
 
     client.user.setActivity({
-        name: "Playing automod.com | ?help?",
-        type: ActivityType.Custom,
+        name: "automaze.com | ?help?",
+        type: ActivityType.Playing,
     })
 });
 client.on('messageCreate', message => {
