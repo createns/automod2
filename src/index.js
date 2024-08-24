@@ -59,7 +59,7 @@ client.on('ready', (c) => {
 });
 client.on('messageCreate', message => {
     if (message.content.startsWith('?help?')) {
-        message.channel.send('# **Here are all my supported commands:**\n**• /autorole-configure\n• /autorole-disable\n• /balance\n• /ban\n• /daily\n• /kick\n• /timeout\n• /kick\n• /level**');
+        message.channel.send('# **Here are all my supported commands:**\n**• /autorole-configure\n• /autorole-disable\n• /balance\n• /ban\n• /daily\n• /kick\n• /timeout\n• /level**');
     }
 
     
